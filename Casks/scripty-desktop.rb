@@ -1,6 +1,6 @@
 cask "scripty-desktop" do
-  version "0.1.0"
-  sha256 "91a284952e8be672fe184c585abc1e33837b18cd964e5a460da9ea89c1b23d86"
+  version "0.2.0"
+  sha256 "be6b57d6e15c99a381dde1f3c73ffab8574a6ba31db544abf879a48ecd6dc3cc"
 
   url "https://github.com/robinbraemer/homebrew-scripty/releases/download/v#{version}/Scripty_#{version}_aarch64.dmg"
   name "Scripty Desktop"
@@ -11,3 +11,4 @@ cask "scripty-desktop" do
 
   app "Scripty.app"
 end
+
